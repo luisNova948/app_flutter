@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Card extends StatelessWidget{
-  const Card({super.key});
+class CardInfo extends StatelessWidget{
+  const CardInfo({super.key});
 
   @override
   Widget build(BuildContext context){
@@ -11,7 +11,7 @@ class Card extends StatelessWidget{
             title: Text('Widgets review',style: TextStyle(color: Colors.white)
             )),
         body: Center(
-          child: Text("Card"),
+          child: Text("CardInfo"),
 
         )
     );
