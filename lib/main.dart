@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       initialRoute: 'home',
       theme: ThemeApp.primaryTheme(),
-      routes:MyRoutes.routes
+      routes:MyRoutes.myRoutes()
     );
   }
 }
