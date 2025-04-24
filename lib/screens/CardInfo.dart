@@ -28,18 +28,18 @@ class _customcard extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.account_circle,
-                color: Theme.of(context).primaryIconTheme.color,
+                color: Colors.white,
               ),
               title: Text(
                 "Nombre",
                 style: TextStyle(
-                  color: Theme.of(context).primaryIconTheme.color,
+                  color: Colors.white,
                 ),
               ),
               subtitle: Text(
                 "Puesto trabajo lorem ipsum dolor sit amet",
                 style: TextStyle(
-                  color: Theme.of(context).primaryIconTheme.color,
+                  color: Colors.white,
                 ),
               ),
             ),
@@ -54,7 +54,7 @@ class _customcard extends StatelessWidget {
                     child: Text(
                       'Aceptar',
                       style: TextStyle(
-                        color: Theme.of(context).primaryIconTheme.color,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -63,7 +63,7 @@ class _customcard extends StatelessWidget {
                     child: Text(
                       'Cancelar',
                       style: TextStyle(
-                        color: Theme.of(context).primaryIconTheme.color,
+                        color: Colors.white,
                       ),
                     ),
                   ),

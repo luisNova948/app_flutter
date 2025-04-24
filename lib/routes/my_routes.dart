@@ -1,4 +1,5 @@
 import 'package:basesdos/models/menu_home.dart';
+import 'package:basesdos/screens/carousel_view.dart';
 import 'package:flutter/material.dart';
 
 import '../screens/CardInfo.dart';
@@ -15,7 +16,8 @@ class MyRoutes{
     MenuHome(icon: Icons.fastfood, nameOption: "menu de comida", route: 'ListView uno', screen: ListViewUno()),
     MenuHome(icon: Icons.accessible_forward_sharp, nameOption: 'listview dos', route: 'ListView dos', screen: ListViewDos()),
     MenuHome(icon: Icons.bus_alert, nameOption: 'alerta', route: 'alert', screen: Alert()),
-    MenuHome(icon: Icons.info, nameOption: 'informacion', route: 'card info', screen: CardInfo())
+    MenuHome(icon: Icons.info, nameOption: 'informacion', route: 'card info', screen: CardInfo()),
+    MenuHome(icon: Icons.view_carousel, nameOption: 'carrusel', route: 'carrusel', screen: Carrusel())
   ];
 
   static Map<String,Widget Function(BuildContext)> routes = {
